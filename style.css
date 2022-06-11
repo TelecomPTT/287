@@ -5,4 +5,10 @@
     img {
         filter:invert(1);
     }
+    a {
+        filter:invert(1);
+    }
+}
+* {
+    box-sizing:border-box;
 }
