@@ -1,0 +1,1 @@
+$.fn.modal.Constructor.Default.keyboard = false // changes default for the modal plugin's `keyboard` option to false
