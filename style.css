@@ -1,14 +1,4 @@
-@media (prefers-color-scheme: dark) {
-    html {
-        filter: invert(1);
-    }
-    img {
-        filter:invert(1);
-    }
-    a {
-        filter:invert(1);
-    }
-}
-* {
-    box-sizing:border-box;
+audio,video {
+    display: block;
+    margin: 0 auto;
 }
