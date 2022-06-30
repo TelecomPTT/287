@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="#">M287</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">M287</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="home.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="multimedia.html">Multimedia-Elemente</a>
@@ -28,155 +29,59 @@
 </header>
 <main>
     <br>
-    <h1 id="begruessung" class="text-center"></h1>
-    <div class="container max-height d-flex align-items-center">
-        <div
-                id="carouselExampleCaptions"
-                class="carousel slide"
-                data-bs-interval="5000"
-                data-bs-ride="carousel"
-        >
-            <div class="carousel-indicators">
-                <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Blid 1"
-                ></button>
-                <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="1"
-                        aria-current="true"
-                        aria-label="Bild 2"
-                ></button>
-                <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2"
-                        aria-current="true"
-                        aria-label="Bild 3"
-                ></button>
-                <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="3"
-                        aria-current="true"
-                        aria-label="Bild 4"
-                ></button>
-                <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="4"
-                        aria-current="true"
-                        aria-label="Bild 5"
-                ></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img
-                            src="images/bild1.png"
-                            class="d-block w-100"
-                            alt="Bild 1"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Schöne Aussicht auf den Neuenburgersee.</h5>
-                        <p>Geschossen am 27. Mai 2022</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img
-                            src="images/bild2.png"
-                            class="d-block w-100"
-                            alt="Bild 2"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Eine schöne Bergwiese.</h5>
-                        <p>Geschossen am 27. Mai 2022</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img
-                            src="images/bild3.png"
-                            class="d-block w-100"
-                            alt="Bild 3"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Ein Waldstück am Hang.</h5>
-                        <p>Geschossen am 27. Mai 2022</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img
-                            src="images/bild4.png"
-                            class="d-block w-100"
-                            alt="Bild 4"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Erschöpft von der Wanderung.</h5>
-                        <p>Geschossen am 27. Mai 2022</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img
-                            src="images/bild5.png"
-                            class="d-block w-100"
-                            alt="Bild 5"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Am Ziel: der Creux du Van.</h5>
-                        <p>Geschossen am 27. Mai 2022</p>
-                    </div>
-                </div>
-            </div>
-            <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-            >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-            >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <div class="jumbotron text-center">
+        <h1 id="begruessung" class="display-4"></h1>
+        <p class="lead">Willkommen auf unserer Website.</p>
+        <hr class="my-4">
+        <p>Schauen Sie sich in Ruhe um.</p>
+        <a class="btn btn-primary btn-lg" id="btn-jumbotron" href="multimedia.html" role="button">Zu den Multimedia-Inhalten</a>
     </div>
-    <form>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    <br>
+    <!-- Cards -->
+    <h2 class="text-center">Unser Team</h2>
+    <section id="team-cards">
+        <div class="card-group">
+            <div class="card">
+                <img src="images/cards/bild1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Anja Stauber</h5>
+                    <p class="card-text">Ich bin das Multitalent und die Chefin.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><a href="mailto:anja.stauber@fatmail.com">Kontakt</a></small>
+                </div>
             </div>
-            <div class="form-group col-md-6">
-                <label for="inputPassword4">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            <div class="card">
+                <img src="images/cards/bild2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Helmut Zwitter</h5>
+                    <p class="card-text">Ich bin für alles administrative zuständig und stets zu Ihren Diensten.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><a href="mailto:helmut.zwitter@fatmail.com">Kontakt</a></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/cards/bild3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Heiner Rainer</h5>
+                    <p class="card-text">Wenn die beiden anderen nichts wissen, kann vielleicht ich weiterhelfen.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><a href="mailto:heiner.rainer@fatmail.com">Kontakt</a></small>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-            </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-    </form>
+    </section>
 </main>
-<footer class="text-center">Copyright © 2022 GB & DK</footer>
+<br><br>
+<footer class="text-center">
+    Copyright © 2022 GB & DK
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="badge badge-info" target="_blank">Tor in die Matrix</a>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script>
-    // Funktion, welche eine zeitabhängige Begrüssung
+    // Funktion, welche eine zeitabhängige Begrüssung auf der Homepage generiert
     var myDate = new Date();
     var hrs = myDate.getHours();
     var greet;
